@@ -113,7 +113,7 @@ a {
       transition: all ease 0.3s;
     }
 
-    &:hover {
+    &:hover:not(.no-animation) {
       color: white;
       &::after {
         height: 100%;

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Discourse Login on Android
-background: /img/posts/discourse-login-on-android/background.png
+background: https://source.unsplash.com/_UeY8aTI6d0
 ---
 
 A few days back, I was looking for a hobby side-project to work on. I wanted to develop an Android application (open source) and to collaborate with my peers on [Google Udacity Android scholarship program](https://in.udacity.com/google-india-scholarships). On the Udacity discussion forum, there were many threads filled with exciting ideas but they all were either *too* ambitious or required quite a bit of time.

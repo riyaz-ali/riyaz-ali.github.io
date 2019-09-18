@@ -2,7 +2,7 @@
 layout: post
 title: Android Support Paging Library
 subtitle: <small>(in pure Java<sup>TM</sup>)</small>
-background: /img/posts/android-support-paging/background.jpg
+background: https://source.unsplash.com/w33-zg-dNL4
 ---
 
 Recently, I was working on a project for the [Udacity Android Nanodegree program](https://in.udacity.com/course/android-developer-nanodegree-by-google--nd801) to develop an Android application for [**TMDb**](https://www.themoviedb.org/) to list movies using the [TMDb API](https://developers.themoviedb.org/3/getting-started/introduction).

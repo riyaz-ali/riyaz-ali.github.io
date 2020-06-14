@@ -3,6 +3,9 @@ languageCode = "en-in"
 theme = "terminal"
 paginate = 4
 
+[permalinks]
+  posts = "/:section/:title"
+
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"

@@ -30,8 +30,8 @@ paginate = 4
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  enableGitInfo = true
-  showLastUpdated = true
+  enableGitInfo = false
+  showLastUpdated = false
   
 [params.twitter]
   # set Twitter handles for Twitter cards

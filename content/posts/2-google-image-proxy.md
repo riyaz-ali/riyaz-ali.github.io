@@ -7,6 +7,8 @@ description: |
     This is an how-to that explains how you can use
     Google's public proxy to optimise and load images
     in an Android app.
+aliases:
+- /google-image-proxy.html
 tags:
 - Android
 - HowTo

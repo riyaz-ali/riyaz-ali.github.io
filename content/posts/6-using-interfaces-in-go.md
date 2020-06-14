@@ -7,6 +7,8 @@ description: |
     This article aims to cover interfaces and their usage in Golang. 
     It tries to explain where and how you should interfaces and how
     to avoid common _pitfalls_ while using them in Golang.
+aliases:
+- /using-interfaces-in-go.html
 tags:
 - Golang
 - Interfaces

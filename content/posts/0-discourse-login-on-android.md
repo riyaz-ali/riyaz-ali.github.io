@@ -6,6 +6,8 @@ description: |
     This how-to aims to serve as a documentation on how
     one can implement Discourse's OAuth-based login flow
     on Android.
+aliases:
+- /discourse-login-on-android.html
 tags:
 - Android
 - Discourse

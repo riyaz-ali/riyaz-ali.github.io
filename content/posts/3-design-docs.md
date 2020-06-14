@@ -6,6 +6,8 @@ background: https://source.unsplash.com/aJTiW00qqtI
 description: |
     In this article, I've tried to explain what a design document is
     and how you could prepare one!
+aliases:
+- /design-docs.html
 tags:
 - SoftwareEngineering
 - Documentation

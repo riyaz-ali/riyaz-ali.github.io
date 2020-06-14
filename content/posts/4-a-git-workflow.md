@@ -7,6 +7,8 @@ description: |
     This article is meant to serve as a documentation around
     a common git workflow based on a _fork-clone-pull_ model
     and how to implement it in your project.
+aliases:
+- /a-git-workflow.html
 tags:
 - SoftwareEngineering
 - Git

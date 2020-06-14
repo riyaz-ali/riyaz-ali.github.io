@@ -6,6 +6,8 @@ background: https://source.unsplash.com/3ym6i13Y9LU
 description: |
     In this article, I've tried to cover an often ignored aspect of 
     software engineering, writing good documentation.
+aliases:
+- /why-documentation-matters.html
 tags:
 - SoftwareEngineering
 - Documentation

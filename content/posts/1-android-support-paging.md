@@ -7,6 +7,8 @@ description: |
     In this how-to, I've tried to explain how you can use
     Android Support Paging Library to improve your app's 
     performance while loading dynamic data.
+aliases:
+- /android-support-paging.html
 tags:
 - Android
 - AndroidSupportLibrary

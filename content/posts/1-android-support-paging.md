@@ -41,8 +41,7 @@ Well, there are four major components in the Paging Library:
 
 4. `PagedList<T>`: A `PagedList` is a Java-collection which loads it's data in chunks (pages) from a `DataSource`. The `PagedList` connects your `PagedListAdapter` and your `DataSource` together and is responsible to _lazy load_ data by calling appropriate methods on the `DataSource`.
 
-![Paging Library Architecture](https://cdn-images-1.medium.com/max/800/1*O1acN3yAOS70zbRMfThXrw.gif){: .img-fluid, .center }
-*Paging Library Architecture*
+{{< image src="https://cdn-images-1.medium.com/max/800/1*O1acN3yAOS70zbRMfThXrw.gif" alt="Paging Library Architecture" position="center" >}}
 
 First, we create a _model POJO_ class (referred in the post as `Movie`) and implement [`DiffUtil.ItemCallback<T>`](https://developer.android.com/reference/android/support/v7/util/DiffUtil.ItemCallback)
 

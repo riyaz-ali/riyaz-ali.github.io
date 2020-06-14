@@ -30,8 +30,7 @@ First I thought to use [Chrome Custom Tabs](https://developer.chrome.com/multide
 
 Then I tried using the [`WebView`](https://developer.android.com/reference/android/webkit/WebView.html) and succeeded to some extent. But the solution was very fragile as there is no well-defined `/login` page on Discourse and the user could easily navigate away from the `WebView`. I know I could've prevented the navigation but Discourse allows 3<sup>rd</sup> party login integration and then I would have to account for all possible domains a user could have navigated too! And besides these there are no autofill and *password remembering* features in `WebView` which means the user would have to login *manually* then.
 
-![Lo and Behold](https://media.giphy.com/media/YoGX4OZFjUwRq/giphy.gif){: .img-fluid, .center }
-*Lo and Behold*
+{{< image src="https://media.giphy.com/media/YoGX4OZFjUwRq/giphy.gif" alt="Lo and Behold" position="center" >}}
 
 And then I found what I was *actually* looking for! The [Discourse User API key specification](https://meta.discourse.org/t/user-api-keys-specification/48536)!! First created in Aug'16, this feature *facilitates* “application” access to Discourse instances without needing to involve moderators. The spec provides a flow *similar* to OAuth but with a few tweaks so that the Discourse instance doesn't have to *know* about the app prior to authentication. The token generation flow is documented [here](https://meta.discourse.org/t/user-api-keys-specification/48536)
 
@@ -216,9 +215,6 @@ In the example `LoginActivity`, start authentication by getting Uri and launchin
     .build();
   customTabsIntent.launchUrl(this, redirectTo);
   ```
-
-![Discourse Authorization screen](/img/posts/discourse-login-on-android/discourse-authorization-screen.png){: .img-fluid, .center height="400px" width="256px" }
-*Discourse Authorization screen*
 
 Then, when Chrome redirects the user back to your Activity:
 

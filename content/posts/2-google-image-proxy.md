@@ -109,8 +109,7 @@ createTmdbImageUrl(
 //...
 ```
 
-![Deadpool](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=200&resize_h=300&url=http%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fto0spRl1CMDvyUbOnbb4fTk3VAd.jpg){: .img-fluid .center}
-_And that's Deadpool coming straight from Google's severs_
+{{< image src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=200&resize_h=300&url=http%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fto0spRl1CMDvyUbOnbb4fTk3VAd.jpg" alt="Deadpool" position="center" >}}
 
 And that's it! Using this you can load image of any aspect that you need and deliver a _crispier and sharper experience_ to your users. But, I'd sincerely like to request to you to _only use this_ for small, open source projects so that you don't need to maintain a server!<br />
 If you are developing a closed-source business application, than it would be much better to use something like [Thumbor](http://thumbor.org/) or [ImageProxy](https://github.com/willnorris/imageproxy) as they are dedicated solutions and provide more features!

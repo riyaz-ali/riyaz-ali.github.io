@@ -1,4 +1,4 @@
-baseurl = "https://riyazali.net"
+baseURL = "https://riyazali.net"
 languageCode = "en-in"
 theme = "terminal"
 paginate = 4
@@ -23,7 +23,7 @@ paginate = 4
   fullWidthTheme = false
 
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
 
   # set a custom favicon (default is a `themeColor` square)
   favicon = "/icons/favicon.ico"
@@ -41,11 +41,9 @@ paginate = 4
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
-    owner = ""
-    keywords = ""
-    copyright = ""
+    title = "Riyaz Ali"
+    owner = "riyaz-ali"
+    copyright = "© Riyaz Ali"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"

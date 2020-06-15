@@ -2,6 +2,7 @@ baseURL = "https://riyazali.net"
 languageCode = "en-in"
 theme = "terminal"
 paginate = 4
+enableRobotsTXT = true
 
 [permalinks]
   posts = "/:section/:title"
@@ -36,13 +37,16 @@ paginate = 4
 [params.twitter]
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  creator = "riyaz-ali"
+  creator = "riyaz2302"
+
+[params.github]
+  user = "riyaz-ali"
 
 [languages]
   [languages.en]
     languageName = "English"
     title = "Riyaz Ali"
-    owner = "riyaz-ali"
+    owner = "Riyaz Ali"
     copyright = "© Riyaz Ali"
     menuMore = "Show more"
     readMore = "Read more"
